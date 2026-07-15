@@ -8,7 +8,10 @@ class CfgFunctions {
 	class A3A {
 		class Save {
 			class saveLoop { file = QPATHTOFOLDER(functions\Save\fn_saveLoop.sqf); };
-			class loadServer { file = QPATHTOFOLDER(functions\Save\fn_loadServer.sqf); };
+		};
+
+		class Base {
+			class createPetros { file = QPATHTOFOLDER(functions\Base\fn_createPetros.sqf); };
 		};
 	};
 };
