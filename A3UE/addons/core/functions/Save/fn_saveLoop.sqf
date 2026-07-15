@@ -1,7 +1,7 @@
 #include "..\..\script_component.hpp"
 FIX_LINE_NUMBERS()
 if (!isServer) exitWith {
-    Error("Miscalled server-only function");
+  Error("Miscalled server-only function");
 };
 
 if (savingServer) exitWith {[localize "STR_A3A_save_persisent_save", localize "STR_A3A_save_save_game_desc"] remoteExecCall ["A3A_fnc_customHint",theBoss]};

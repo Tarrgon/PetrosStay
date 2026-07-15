@@ -2,7 +2,7 @@
 FIX_LINE_NUMBERS()
 Info("loadServer Starting.");
 if (isServer) then {
-    Info("Starting Persistent Load (with PetrosStay).");
+  Info("Starting Persistent Load (with PetrosStay).");
 	petros allowdamage false;
 
 	// Set all main markers to occupant control by default, overridden by mrkSDK & mrkCSAT
