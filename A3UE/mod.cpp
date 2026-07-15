@@ -1,5 +1,5 @@
-name = "Antistasi Ultimate QOL";
+name = "Petros Stay";
 author = "Tarrgon";
-tooltip = "Adds helpful Antistasi Ultimate functionalit";
+tooltip = "Spawns Petros where you left him when you saved.";
 actionName = "GitHub";
-action = "https://github.com/Westalgie/A3UExtender"
+action = "https://github.com/Tarrgon/PetrosStay"
